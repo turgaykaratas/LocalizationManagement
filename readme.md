@@ -62,7 +62,7 @@ e-posta: turgayk7@gmail.com <br>
 parola : 123qwe<br>
 
 ## Dil Servisinin kullanılması
-Dil servisi ile istenilen proje, proje alt dili ve proje dil versiyonuna ait kelimeleri alabilmekteyiz. <br>
+Dil servisi ile istenilen proje, proje alt dili ve proje dil versiyonuna ait kelimeleri alabilmekteyiz. Bu servis kayıtları 5 dakika cachelemektedir. İşlem depolama için file kullanılmaktadır. Eğer sisteminizde redis veya memcached kurulu ise laravele tanıtmanız yeterlidir.<br>
 <b>Api servis linki örneği :</b> http://localhost:8000/api/local?project=Proje1&lang=us&version=1 <br>
 <b>Aldığı Parametreler</b>
 * project : Oluşturulan proje adı
