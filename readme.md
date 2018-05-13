@@ -57,6 +57,15 @@ Sistemde otomatik olarak oluşturulan admin kullanıcısının bilgileri <br>
 e-posta: urgayk7@gmail.com <br>
 parola : 123qwe<br>
 
+## Dil Servisinin kullanılması
+Dil servisi ile istenilen proje, proje alt dili ve proje dil versiyonuna ait kelimeleri alabilmekteyiz. <br>
+<b>Api servis linki örneği :</b> http://localhost:8000/api/local?project=Proje1&lang=us&version=1 <br>
+<b>Aldığı Parametreler</b>
+* project : Oluşturulan proje adı
+* lang : Projeye eklenen dil kodu (Dil tablosu adı "languages")
+* version : Proje diline ait versiyon. <br>
+<b>Not : </b> Her proje için birden fazla dil olabilir ve her dil içinde birden fazla versiyon olabilir.
+
 
 ## Kullanılan Paketler
 [ENTRUST Role and Permissions for Laravel 5](https://github.com/Zizaco/entrust)

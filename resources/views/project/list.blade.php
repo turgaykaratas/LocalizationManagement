@@ -39,7 +39,7 @@
                                         @foreach($project->languages as $langu)
                                             <tr>
                                                 <td></td>
-                                                <td colspan="2">{{ $langu->name }} - {{ $langu->code }}</td>
+                                                <td colspan="2">{{ $langu->name }} ( Dil Kodu : {{ $langu->code }} )</td>
                                                 <td>Proje Diline Yeni Versiyon  <a href="{{ route('project.localization2', ['projectId'=>$project->id, 'langId'=>$langu->id]) }}" class="btn btn-primary btn-sm">Ekle</a></td>
                                             </tr>
 
