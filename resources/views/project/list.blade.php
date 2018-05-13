@@ -19,7 +19,7 @@
                         <thead>
                             <th>Id</th>
                             <th>Proje Adı</th>
-                            <th>Proje Sorunlusu</th>
+                            <th>Proje Sorumlusu</th>
                             <th></th>
                         </thead>
                         <tbody>
