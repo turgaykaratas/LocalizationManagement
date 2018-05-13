@@ -54,8 +54,11 @@ Gerekli kayıtları sisteme eklemek için sırasıyla aşağıdaki komutları ç
 * İlk olarak bu komutu "composer dump-autoload" bir kereye mahsus çalıştırıyoruz.
 * Tabloları doldurmak için "php artisan db:seed" komutunu çalıştırınız.<br>
 
+## Kullanıma Hazır
+Sistemimiz kullanıma hazırdır. "php artisan serve" komut ile projeyi çalıştırabilirsiniz. <br>
+
 Sistemde otomatik olarak oluşturulan admin kullanıcısının bilgileri <br>
-e-posta: urgayk7@gmail.com <br>
+e-posta: turgayk7@gmail.com <br>
 parola : 123qwe<br>
 
 ## Dil Servisinin kullanılması
