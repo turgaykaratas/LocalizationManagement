@@ -44,6 +44,7 @@ DB_DATABASE=customer_tracking <br>
 DB_USERNAME=root <br>
 DB_PASSWORD= <br>
 Projenin mevcut ayarlarıdır. config/database.php dosyasından değiştirilebilinir<br>
+Veritabanı oluştururken "Collation" değerini "utf8_general_ci" seçiniz.<br>
 
 ## Tablo Ayarları
 Veritabanı ayarı yapıldıktan sonra gerekli tablolar otomatik olarak oluşturulacaktır. Bunun için "php artisan migrate" <br>
