@@ -17,7 +17,7 @@ Projelerinize dil ve versiyon bazlı olarak dil desteği vermek için geliştiri
 ## Proje Açıklaması
 Projede kurulduktan sonra sistemde otomatik olarak tanımlı bir kullanıcı olacaktır. Bu kullanıcının tipi site yöneticisidir ve otomatik olarak "admin" rolü ile ilişkilendirilmiştir. Bu kullanıcı ile yeni kullanıcılar oluşturmakta ve bilgilerini düzeltebilmektedir.<br>
 
-Oluşturulan kullanıcılar "Project Owner" rolü ile otomatik olarak ilişkilendirilmektedir.<br>
+Oluşturulan kullanıcılar "Project Owner" rolü ile otomatik olarak ilişkilendirilmektedir. Mevcut sisteme Role, Permission ve User arasındaki ilişkilendirmeleri yapmak için bir form eklenebilir. Gerekli altyapı mevcut bulunmaktadır.<br>
 
 Sisteme giriş yapan kullanıcılar soldaki "İşlemler" menüsünden işlemlerini yapabilmektedirler.<br>
 
@@ -63,7 +63,8 @@ Dil servisi ile istenilen proje, proje alt dili ve proje dil versiyonuna ait kel
 <b>Aldığı Parametreler</b>
 * project : Oluşturulan proje adı
 * lang : Projeye eklenen dil kodu (Dil tablosu adı "languages")
-* version : Proje diline ait versiyon. <br>
+* version : Proje diline ait versiyon. <br><br>
+
 <b>Not : </b> Her proje için birden fazla dil olabilir ve her dil içinde birden fazla versiyon olabilir.
 
 
