@@ -40,7 +40,7 @@ composer update <br>
 DB_CONNECTION=mysql <br>
 DB_HOST=127.0.0.1 <br>
 DB_PORT=3306 <br>
-DB_DATABASE=customer_tracking <br>
+DB_DATABASE=localization_management <br>
 DB_USERNAME=root <br>
 DB_PASSWORD= <br>
 Projenin mevcut ayarlarıdır. config/database.php dosyasından değiştirilebilinir<br>
